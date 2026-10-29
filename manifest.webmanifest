@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "배터리마스터 배터리 규격 검색",
-  "short_name": "배터리마스터",
+  "name": "배터리 규격 검색",
+  "short_name": "배터리 규격 검색",
   "lang": "ko",
   "start_url": "./",
   "scope": "./",
