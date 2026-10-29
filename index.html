@@ -161,7 +161,7 @@ select:focus-visible,button:focus-visible,.result[tabindex]:focus-visible{outlin
   standalone.addEventListener?.('change',event=>{if(event.matches)hide();});
   window.addEventListener('beforeinstallprompt',event=>{
     event.preventDefault();deferred=event;
-    if(!standalone.matches&&!navigator.standalone){box.hidden=false;button.textContent='배터리마스터 앱 설치';}
+    if(!standalone.matches&&!navigator.standalone){box.hidden=false;button.textContent='배터리 규격 검색 앱 설치';}
   });
   window.addEventListener('appinstalled',hide);
   button.addEventListener('click',async()=>{
